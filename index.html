@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/framework.css">
+    
+</head>
+<body>
+
+    <form action="" id="form" class="activ mr-15">
+        Add New Task
+
+        <div class="input d-flex flex-dir">
+            <label for="" class="mb-10">Task Title</label>
+            <input type="text" name="" id="input">
+            <!-- <div class="error"></div> -->
+        </div>
+        
+
+        <div class="date d-flex flex-dir">
+            <label for="" class="mb-10">Due Date</label>
+            <input type="date" name="" id="date">
+        </div>
+        
+
+        <div class="textarea d-flex flex-dir">
+            <label for="" class="mb-10">description</label>
+            <textarea name="" id="textarea" cols="30" rows="5"></textarea>
+            <div class="error"></div>
+        </div>
+
+        <div class="buttons-control">
+            <button id="close">Close</button>
+            <button type="submit" id="add">Add</button>
+        </div>
+
+    </form>
+
+    <div id="app">
+        <h4 class="mb-15">Todo App</h4>
+        <div id="addNew">
+            <span>Add New Task</span>
+            <i class="fas fa-plus"></i>
+        </div>
+        <h5 class="txt-c m-0 mt-10 fs-25">Tasks</h5>
+        <div id="tasks">
+            
+        </div>
+    </div>
+    <script src="main.js"></script>
+    
+</body>
+</html>
